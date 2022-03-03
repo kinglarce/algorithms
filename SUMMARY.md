@@ -2,7 +2,8 @@
 
 ## Overview
 
-* [Arrays](README.md)
+* [READ ME](README.md)
+* [Arrays](<README (1).md>)
   * [Two Sum](overview/arrays/two-sum.md)
   * [Best Time to Buy and Sell Stock](overview/arrays/best-time-to-buy-and-sell-stock.md)
   * [Contains Duplicate](overview/arrays/contains-duplicate.md)
