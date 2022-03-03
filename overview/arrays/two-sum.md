@@ -4,7 +4,7 @@
 
 Two Sum - [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
 
-Two Sum II - [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+Two Sum II(Using Hash) - [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 #### Problem:
 
