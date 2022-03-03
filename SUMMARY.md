@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Algorithms](README.md)
 
 ## Arrays
 
