@@ -17,3 +17,5 @@
 
 * [Binary Search](algorithms/binary-search/README.md)
   * [Binary Search](algorithms/binary-search/binary-search.md)
+  * [First Bad Version](algorithms/binary-search/first-bad-version.md)
+  * [Search Insert Position](algorithms/binary-search/search-insert-position.md)
