@@ -21,7 +21,7 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 #### Solutions
 
 {% tabs %}
-{% tab title="DP(Kadane's Algo) - O(n)" %}
+{% tab title="DP(Kadane Algo) - O(n)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(1)
 {% endhint %}
@@ -31,7 +31,7 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint 2:**  Get max current sum plus current num or current num then adjust max sum if current sum is greater than max sum.
+**Hint 2:** Get max current sum plus current num or current num then adjust max sum if current sum is greater than max sum.
 {% endhint %}
 
 ```python
@@ -53,7 +53,7 @@ Time: O(n2), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Run a two pointer from left to right and get the max sum from left pointer to right pointer.&#x20;
+**Hint:** Run a two pointer from left to right and get the max sum from left pointer to right pointer.
 {% endhint %}
 
 ```python
@@ -69,4 +69,3 @@ def maxSubArray(nums: List[int]) -> int:
 ```
 {% endtab %}
 {% endtabs %}
-
