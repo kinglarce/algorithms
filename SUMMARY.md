@@ -9,3 +9,4 @@
 * [Contains Duplicate](arrays/contains-duplicate.md)
 * [Product of Array Except Self](arrays/product-of-array-except-self.md)
 * [Contains Duplicate](arrays/contains-duplicate-1.md)
+* [Maximum Subarray](arrays/maximum-subarray.md)
