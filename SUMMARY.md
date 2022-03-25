@@ -12,6 +12,7 @@
   * [Contains Duplicate](data-structure/arrays/contains-duplicate-1.md)
   * [Maximum Subarray](data-structure/arrays/maximum-subarray.md)
   * [Merge Sorted Array](data-structure/arrays/merge-sorted-array.md)
+  * [Squares of Sorted Array](data-structure/arrays/squares-of-sorted-array.md)
 
 ## Algorithms
 
