@@ -47,9 +47,9 @@ def maxSubArray(nums: List[int]) -> int:
 ```
 {% endtab %}
 
-{% tab title="Two Pointer - O(n2)" %}
+{% tab title="Two Pointer - O(n^2)" %}
 {% hint style="success" %}
-Time: O(n2), Space: O(1)
+Time: O(n^2), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}

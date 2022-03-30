@@ -10,7 +10,7 @@ Two Sum II(Using Hash) - [https://leetcode.com/problems/two-sum-ii-input-array-i
 
 Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.
 
-You may assume that each input would have _**exactly**_** one solution**, and you may not use the _same_ element twice.
+You may assume that each input would have _**exactly**_\*\* one solution\*\*, and you may not use the _same_ element twice.
 
 You can return the answer in any order.
 
@@ -65,7 +65,7 @@ def two_sum(nums, target):
 ```
 {% endtab %}
 
-{% tab title="Pointer - O(n)/O(nlogn)" %}
+{% tab title="Two Pointer - O(n)/O(nlogn)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(1)
 {% endhint %}
@@ -93,4 +93,3 @@ def two_sum(nums, target):
 ```
 {% endtab %}
 {% endtabs %}
-

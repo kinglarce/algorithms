@@ -18,13 +18,13 @@ Output: true
 #### Solutions
 
 {% tabs %}
-{% tab title="Sorting - O(nlogn)" %}
+{% tab title="Sorting - O(n log n)" %}
 {% hint style="success" %}
 Time: O(nlogn), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Sort it and check the adjacent value.
+**Hint:** Sort and compare current value with next value if its the same.
 {% endhint %}
 
 ```python
@@ -37,7 +37,7 @@ def contains_duplicate(nums):
 ```
 {% endtab %}
 
-{% tab title="Comparing Unique - O(n)" %}
+{% tab title="Set - O(n)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(1)
 {% endhint %}
@@ -53,13 +53,13 @@ def contains_duplicate(nums):
 ```
 {% endtab %}
 
-{% tab title="Check If It Exist - O(n)" %}
+{% tab title="Set/Hashmap - O(n)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Check if it's already recorded in Set/Hashmap
+**Hint:** Record each num in unique set if it doesn't exist, else, return True.
 {% endhint %}
 
 ```python
@@ -73,4 +73,3 @@ def contains_duplicate(nums):
 ```
 {% endtab %}
 {% endtabs %}
-

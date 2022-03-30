@@ -33,13 +33,12 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
         1|       *(buy)
         0|_____________________________________
          0   1   2   3   4   5   6     (days)
-
 ```
 
 #### Solutions
 
 {% tabs %}
-{% tab title="Pointer - O(n)/O(n^2)" %}
+{% tab title="Two Pointer - O(n)/O(n^2)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(1)
 {% endhint %}
@@ -87,4 +86,3 @@ def buy_and_sell_stock(prices):
 ```
 {% endtab %}
 {% endtabs %}
-
