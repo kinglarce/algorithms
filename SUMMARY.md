@@ -13,6 +13,7 @@
   * [Maximum Subarray](data-structure/arrays/maximum-subarray.md)
   * [Merge Sorted Array](data-structure/arrays/merge-sorted-array.md)
   * [Squares of Sorted Array](data-structure/arrays/squares-of-sorted-array.md)
+  * [Intersection of Two Arrays](data-structure/arrays/intersection-of-two-arrays.md)
 
 ## Algorithms
 

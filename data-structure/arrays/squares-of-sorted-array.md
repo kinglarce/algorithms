@@ -41,7 +41,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Have 3 pointer that'll traverse in reversal, where we place the square value between `left` and `right` to the `i` pointer of the result. The key is making the negative value absolute using `abs` so that when we compare a `-4` with `3`, the `-4` become `4` and it's greater than `3`.&#x20;
+**Hint:** Have three-pointers that'll traverse in reversal, where we place the square value between `left` and `right` to the `i` pointer of the result. The key is making the negative value absolute using `abs` so that when we compare a `-4` with `3`, the `-4` become `4` and it's greater than `3`.&#x20;
 
 If `right` is greater than `left` then use it for squaring, else using `left`.&#x20;
 {% endhint %}
