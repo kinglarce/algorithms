@@ -19,6 +19,8 @@
   * [Search a 2D Matrix](data-structure/arrays/search-a-2d-matrix.md)
 * [String](data-structure/string/README.md)
   * [First Unique Character](data-structure/string/first-unique-character.md)
+  * [Valid Anagram](data-structure/string/valid-anagram.md)
+  * [Ransom Note](data-structure/string/ransom-note.md)
 * [Linked List](data-structure/linked-list.md)
 * [Stack / Queue](data-structure/stack-queue.md)
 * [Tree](data-structure/tree.md)
