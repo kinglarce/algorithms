@@ -28,11 +28,7 @@ Time: O(m\*n), Space: O(m\*n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** First, set the placeholder for the new matrix with the boundaries of `r` and `c` inputs.
-
-Place values in a Queue and pop them out row by row.&#x20;
-
-In this case, we push every value to a `q` which represents a Queue, then we pop each front value in the Queue but instead of using the matrix row and column length, we use the `r` and `c` which is the input that matches the boundaries of the placeholder `result`.
+**Hint:** Have a Queue which in this case is `q` , then we pop each value in front which we'll push it to `result` , but instead of using the matrix row and column length, we use the `r` and `c` which is the input that matches the boundaries of the placeholder `result`.
 
 Validate if the `r` and `c` boundaries doesn't exceeds to the matrix `mat` row and columns lengths.&#x20;
 {% endhint %}
@@ -64,9 +60,7 @@ Time: O(m\*n), Space: O(m\*n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** First, set the placeholder for the new matrix with the boundaries of `r` and `c` inputs.
-
-Same idea as the Queue, but instead, we keep track of the `row` and `col` and check if `col` is equal to the expected column boundary which is `c` then we restart the `col` and increase the `row` so that `mat[i][j]` value goes to next row.
+**Hint:** Same idea as the Queue, but instead, we keep track of the `row` and `col` and check if `col` is equal to the expected column boundary which is `c` then we restart the `col` and increase the `row` so that `mat[i][j]` value goes to next row.
 
 Validate if the `r` and `c` boundaries doesn't exceeds to the matrix `mat` row and columns lengths.&#x20;
 {% endhint %}
@@ -99,9 +93,7 @@ Time: O(m\*n), Space: O(m\*n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** First, set the placeholder for the new matrix with the boundaries of `r` and `c` inputs.
-
-This uses division on row and modulus on column where `index // c` would give circular index of rows and `index % c` would give circular index of columns.
+**Hint:** Use division on row and modulus on column where `index // c` would give circular index of rows and `index % c` would give circular index of columns.
 
 We need to keep a counter `index` which the `c` boundary would use for getting the index.
 

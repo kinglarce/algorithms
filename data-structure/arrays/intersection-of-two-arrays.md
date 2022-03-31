@@ -24,9 +24,7 @@ Time: O(n log n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** "Intersection" just means the same value from both arrays.
-
-Sort `nums1` and `nums2` so that you can presume that it's ascending order and easy to compare two arrays using two-pointers.
+**Hint:** Sort `nums1` and `nums2` so that you can presume that it's ascending order and easy to compare two arrays using two-pointers.
 
 Compare `nums1[i]` and `nums2[j]` if `nums1[i]` is less than `nums2[j]` then move forward the `i` pointer, if it's greater then move forward the `j` pointer otherwise then that's the intersection. ``&#x20;
 {% endhint %}

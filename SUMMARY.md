@@ -14,6 +14,8 @@
   * [Squares of Sorted Array](data-structure/arrays/squares-of-sorted-array.md)
   * [Intersection of Two Arrays](data-structure/arrays/intersection-of-two-arrays.md)
   * [Reshape the Matrix](data-structure/arrays/reshape-the-matrix.md)
+  * [Pascal's Triangle](data-structure/arrays/pascals-triangle.md)
+  * [Valid Sudoku](data-structure/arrays/valid-sudoku.md)
 
 ## Algorithms
 
