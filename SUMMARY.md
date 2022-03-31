@@ -4,7 +4,7 @@
 
 ## Data Structure
 
-* [Arrays](data-structure/arrays/README.md)
+* [Array](data-structure/arrays/README.md)
   * [Two Sum](data-structure/arrays/two-sum.md)
   * [Best Time to Buy and Sell Stock](data-structure/arrays/best-time-to-buy-and-sell-stock.md)
   * [Contains Duplicate](data-structure/arrays/contains-duplicate.md)
@@ -17,6 +17,11 @@
   * [Pascal's Triangle](data-structure/arrays/pascals-triangle.md)
   * [Valid Sudoku](data-structure/arrays/valid-sudoku.md)
   * [Search a 2D Matrix](data-structure/arrays/search-a-2d-matrix.md)
+* [String](data-structure/string/README.md)
+  * [First Unique Character](data-structure/string/first-unique-character.md)
+* [Linked List](data-structure/linked-list.md)
+* [Stack / Queue](data-structure/stack-queue.md)
+* [Tree](data-structure/tree.md)
 
 ## Algorithms
 
