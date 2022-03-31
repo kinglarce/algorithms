@@ -16,6 +16,7 @@
   * [Reshape the Matrix](data-structure/arrays/reshape-the-matrix.md)
   * [Pascal's Triangle](data-structure/arrays/pascals-triangle.md)
   * [Valid Sudoku](data-structure/arrays/valid-sudoku.md)
+  * [Search a 2D Matrix](data-structure/arrays/search-a-2d-matrix.md)
 
 ## Algorithms
 
