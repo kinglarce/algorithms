@@ -21,7 +21,8 @@
   * [First Unique Character](data-structure/string/first-unique-character.md)
   * [Valid Anagram](data-structure/string/valid-anagram.md)
   * [Ransom Note](data-structure/string/ransom-note.md)
-* [Linked List](data-structure/linked-list.md)
+* [Linked List](data-structure/linked-list/README.md)
+  * [Linked List Cycle](data-structure/linked-list/linked-list-cycle.md)
 * [Stack / Queue](data-structure/stack-queue.md)
 * [Tree](data-structure/tree.md)
 
