@@ -23,6 +23,7 @@
   * [Ransom Note](data-structure/string/ransom-note.md)
 * [Linked List](data-structure/linked-list/README.md)
   * [Linked List Cycle](data-structure/linked-list/linked-list-cycle.md)
+  * [Merge Two Sorted Lists](data-structure/linked-list/merge-two-sorted-lists.md)
 * [Stack / Queue](data-structure/stack-queue.md)
 * [Tree](data-structure/tree.md)
 
