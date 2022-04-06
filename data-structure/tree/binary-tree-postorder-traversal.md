@@ -1,12 +1,12 @@
-# Binary Tree Inorder Traversal
+# Binary Tree Postorder Traversal
 
 #### Links:
 
-Inorder Traversal - [https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+Binary Tree Postorder Traversal - [https://leetcode.com/problems/binary-tree-postorder-traversal/](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 #### Problem:
 
-Given the `root` of a binary tree, return _the inorder traversal of its nodes' values_.
+Given the `root` of a binary tree, return _the postorder traversal of its nodes' values_.
 
 **Example 1:**
 
@@ -18,7 +18,7 @@ Tree:
           /  \ 
         3      4
 Input: root = [1,null,2,3,4]
-Output: [1,3,2,4]
+Output: [3,4,2,1]
 ```
 
 #### Solutions
@@ -42,7 +42,7 @@ Pattern: Bottom -> Top -> Left -> Right
 {% endhint %}
 
 ```python
-def inorderTraversal(root: Optional[TreeNode]) -> List[int]:
+def postorderTraversal(root: Optional[TreeNode]) -> List[int]:
     result = []
     dfs(root, result)
     return result
@@ -51,8 +51,8 @@ def dfs(node, result):
     if not node:
         return
     dfs(node.left, result)
-    result.append(node.val)
     dfs(node.right, result)
+    result.append(node.val)
 ```
 {% endtab %}
 {% endtabs %}
