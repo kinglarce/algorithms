@@ -30,7 +30,8 @@
 * [Stack / Queue](data-structure/stack-queue.md)
   * [Valid Parentheses](data-structure/stack-queue/valid-parentheses.md)
   * [Implement Queue using Stacks](data-structure/stack-queue/implement-queue-using-stacks.md)
-* [Tree](data-structure/tree.md)
+* [Tree](data-structure/tree/README.md)
+  * [Binary Tree Preorder Traversal](data-structure/tree/binary-tree-preorder-traversal.md)
 
 ## Algorithms
 
