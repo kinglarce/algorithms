@@ -27,7 +27,8 @@
   * [Remove Linked List Elements](data-structure/linked-list/remove-linked-list-elements.md)
   * [Reverse Linked List](data-structure/linked-list/reverse-linked-list.md)
   * [Remove Duplicates from Sorted List](data-structure/linked-list/remove-duplicates-from-sorted-list.md)
-* [Stack / Queue](data-structure/stack-queue.md)
+* [Stack / Queue](data-structure/stack-queue/README.md)
+  * [Valid Parentheses](data-structure/stack-queue/valid-parentheses.md)
 * [Tree](data-structure/tree.md)
 
 ## Algorithms
