@@ -1,0 +1,47 @@
+# Path Sum
+
+#### Links:
+
+Invert Binary Tree - [https://leetcode.com/problems/invert-binary-tree/](https://leetcode.com/problems/invert-binary-tree/)
+
+#### Problem:
+
+Given the `root` of a binary tree and an integer `targetSum`, return `true` if the tree has a **root-to-leaf** path such that adding up all the values along the path equals `targetSum`.
+
+A **leaf** is a node with no children.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/01/18/pathsum1.jpg)
+
+```
+Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
+Output: true
+Explanation: The root-to-leaf path with the target sum is shown.
+```
+
+#### Solutions
+
+{% tabs %}
+{% tab title="DFS - O(n)" %}
+{% hint style="success" %}
+Time: O(n), Space: O(n)
+{% endhint %}
+
+{% hint style="info" %}
+**Hint:** Reduce `targetSum` for each current node value and check if it already reach the left node and see if `targetSum == 0.`
+{% endhint %}
+
+```python
+def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+    if not root:
+        return False
+    
+    targetSum -= root.val
+    if not root.left and not root.right:
+        return targetSum == 0
+    
+    return self.hasPathSum(root.left, targetSum) or self.hasPathSum(root.right, targetSum)
+```
+{% endtab %}
+{% endtabs %}
