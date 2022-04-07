@@ -2,6 +2,13 @@
 
 * [Data Structure & Algorithms](README.md)
 
+## Algorithms
+
+* [Binary Search](algorithms/binary-search/README.md)
+  * [Binary Search](https://app.gitbook.com/s/X1wGvVzYnHxDiiT4Up3z/\~/changes/OfOJfVgqpKyZxkB82iZG/data-structure/arrays/binary-search)
+  * [First Bad Version](https://app.gitbook.com/s/X1wGvVzYnHxDiiT4Up3z/\~/changes/OfOJfVgqpKyZxkB82iZG/data-structure/arrays/first-bad-version)
+  * [Search Insert Position](https://app.gitbook.com/s/X1wGvVzYnHxDiiT4Up3z/\~/changes/OfOJfVgqpKyZxkB82iZG/data-structure/arrays/search-insert-position)
+
 ## Data Structure
 
 * [Array](data-structure/arrays/README.md)
@@ -17,6 +24,9 @@
   * [Pascal's Triangle](data-structure/arrays/pascals-triangle.md)
   * [Valid Sudoku](data-structure/arrays/valid-sudoku.md)
   * [Search a 2D Matrix](data-structure/arrays/search-a-2d-matrix.md)
+  * [Binary Search](data-structure/arrays/binary-search.md)
+  * [First Bad Version](data-structure/arrays/first-bad-version.md)
+  * [Search Insert Position](data-structure/arrays/search-insert-position.md)
 * [String](data-structure/string/README.md)
   * [First Unique Character](data-structure/string/first-unique-character.md)
   * [Valid Anagram](data-structure/string/valid-anagram.md)
@@ -38,10 +48,3 @@
   * [Path Sum](data-structure/tree/path-sum.md)
   * [Search in a Binary Search Tree](data-structure/tree/search-in-a-binary-search-tree.md)
   * [Insert into a Binary Search Tree](data-structure/tree/insert-into-a-binary-search-tree.md)
-
-## Algorithms
-
-* [Binary Search](algorithms/binary-search/README.md)
-  * [Binary Search](algorithms/binary-search/binary-search.md)
-  * [First Bad Version](algorithms/binary-search/first-bad-version.md)
-  * [Search Insert Position](algorithms/binary-search/search-insert-position.md)
