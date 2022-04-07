@@ -36,6 +36,7 @@
   * [Binary Tree Postorder Traversal](data-structure/tree/binary-tree-postorder-traversal.md)
   * [Invert Binary Tree](data-structure/tree/invert-binary-tree.md)
   * [Path Sum](data-structure/tree/path-sum.md)
+  * [Search in a Binary Search Tree](data-structure/tree/search-in-a-binary-search-tree.md)
 
 ## Algorithms
 

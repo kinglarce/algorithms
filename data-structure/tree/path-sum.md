@@ -33,7 +33,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+def hasPathSum(root: Optional[TreeNode], targetSum: int) -> bool:
     if not root:
         return False
     
@@ -41,7 +41,7 @@ def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
     if not root.left and not root.right:
         return targetSum == 0
     
-    return self.hasPathSum(root.left, targetSum) or self.hasPathSum(root.right, targetSum)
+    return hasPathSum(root.left, targetSum) or hasPathSum(root.right, targetSum)
 ```
 {% endtab %}
 {% endtabs %}

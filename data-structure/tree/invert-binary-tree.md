@@ -30,11 +30,11 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+def invertTree(root: Optional[TreeNode]) -> Optional[TreeNode]:
     if not root:
         return
-    left = self.invertTree(root.left)
-    right = self.invertTree(root.right)
+    left = invertTree(root.left)
+    right = invertTree(root.right)
     root.left = right
     root.right = left
     
