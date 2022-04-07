@@ -37,9 +37,9 @@ def searchBST(root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
         return root
     
     if val < root.val:
-        return self.searchBST(root.left, val)
+        return searchBST(root.left, val)
     elif val > root.val:
-        return self.searchBST(root.right, val)
+        return searchBST(root.right, val)
     else:
         return root
 ```

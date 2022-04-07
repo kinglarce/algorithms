@@ -37,6 +37,7 @@
   * [Invert Binary Tree](data-structure/tree/invert-binary-tree.md)
   * [Path Sum](data-structure/tree/path-sum.md)
   * [Search in a Binary Search Tree](data-structure/tree/search-in-a-binary-search-tree.md)
+  * [Insert into a Binary Search Tree](data-structure/tree/insert-into-a-binary-search-tree.md)
 
 ## Algorithms
 
