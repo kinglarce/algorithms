@@ -34,6 +34,7 @@
   * [Binary Tree Preorder Traversal](data-structure/tree/binary-tree-preorder-traversal.md)
   * [Binary Tree Inorder Traversal](data-structure/tree/binary-tree-inorder-traversal.md)
   * [Binary Tree Postorder Traversal](data-structure/tree/binary-tree-postorder-traversal.md)
+  * [Invert Binary Tree](data-structure/tree/invert-binary-tree.md)
 
 ## Algorithms
 
