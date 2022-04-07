@@ -29,7 +29,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Reduce `targetSum` for each current node value and check if it already reach the left node and see if `targetSum == 0.`
+**Hint:** Reduce `targetSum` for each current node value and check if the node is already the leaf node as well as check if `targetSum` is already `0.`
 {% endhint %}
 
 ```python
