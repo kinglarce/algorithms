@@ -6,4 +6,8 @@ coverY: 0
 
 # Data Structure & Algorithms
 
-Blind 75 - https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+Blind 75 Excel Sheet - [https://docs.google.com/spreadsheets/d/1A2PaQKcdwO\_lwxz9bAnxXnIQayCouZP6d-ENrBz\_NXc/edit#gid=0](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO\_lwxz9bAnxXnIQayCouZP6d-ENrBz\_NXc/edit#gid=0)
+
+Grind 75 - [https://www.techinterviewhandbook.org/grind75](https://www.techinterviewhandbook.org/grind75)
+
+NeetCode - [https://neetcode.io/](https://neetcode.io)&#x20;
