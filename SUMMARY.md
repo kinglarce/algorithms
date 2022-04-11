@@ -39,6 +39,7 @@
   * [Insert into a Binary Search Tree](topics/tree/insert-into-a-binary-search-tree.md)
   * [Validate Binary Search Tree](topics/tree/validate-binary-search-tree.md)
   * [Lowest Common Ancestor of a Binary Search Tree](topics/tree/lowest-common-ancestor-of-a-binary-search-tree.md)
+  * [Two Sum IV - Input is a BST](topics/tree/two-sum-iv-input-is-a-bst.md)
 * [Binary Search](topics/binary-search/README.md)
   * [Binary Search](topics/binary-search/binary-search.md)
   * [First Bad Version](topics/binary-search/first-bad-version.md)
