@@ -22,6 +22,7 @@
   * [Ransom Note](topics/arrays/ransom-note.md)
 * [Two/Three Pointers](topics/two-three-pointers/README.md)
   * [Valid Palindrome](topics/two-three-pointers/valid-palindrome.md)
+  * [Two Sum](topics/arrays/two-sum.md)
 * [Linked List](topics/linked-list/README.md)
   * [Linked List Cycle](topics/linked-list/linked-list-cycle.md)
   * [Merge Two Sorted Lists](topics/linked-list/merge-two-sorted-lists.md)
