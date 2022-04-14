@@ -32,7 +32,7 @@ Why use a pseudo head? using a `prev` works fine of deleting something in the mi
 {% endhint %}
 
 ```python
-def removeElements(head: ListNode, val: int) -> ListNode:
+def remove_elements(head: ListNode, val: int) -> ListNode:
     if not head:
         return
     
