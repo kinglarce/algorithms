@@ -31,7 +31,7 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 ```python
-def isPalindrome(s: str) -> bool:
+def is_palindrome(s: str) -> bool:
     left, right = 0, len(s)-1
     
     while left < right:
