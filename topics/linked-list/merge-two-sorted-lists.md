@@ -36,7 +36,7 @@ Once the loop exits because one of the two linked lists doesn't have value anymo
 {% endhint %}
 
 ```python
-def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+def merge_two_lists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     dummy = ListNode()
     current = dummy
     
@@ -71,7 +71,7 @@ Once the loop exits because one of the two linked lists doesn't have value anymo
 {% endhint %}
 
 ```python
-def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+def merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     dummy = ListNode(0, list1)
     current = dummy
     
