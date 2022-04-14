@@ -12,8 +12,6 @@ There is a cycle in a linked list if there is some node in the list that can be 
 
 Return `true` _if there is a cycle in the linked list_. Otherwise, return `false`.
 
-&#x20;
-
 **Example 1:**
 
 ![](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
@@ -60,7 +58,7 @@ Two pointer approach, slow runner starts at the head and fast starts on the next
 {% endhint %}
 
 ```python
-def hasCycle(head: Optional[ListNode]) -> bool:
+def has_cycle(head: Optional[ListNode]) -> bool:
     if not head:
         return
 
