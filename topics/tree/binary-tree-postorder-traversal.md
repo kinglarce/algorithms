@@ -42,7 +42,7 @@ Pattern: Bottom -> Top -> Left -> Right
 {% endhint %}
 
 ```python
-def postorderTraversal(root: Optional[TreeNode]) -> List[int]:
+def postorder_traversal(root: Optional[TreeNode]) -> List[int]:
     result = []
     dfs(root, result)
     return result

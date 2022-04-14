@@ -33,7 +33,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def hasPathSum(root: Optional[TreeNode], targetSum: int) -> bool:
+def has_path_sum(root: Optional[TreeNode], targetSum: int) -> bool:
     if not root:
         return False
     

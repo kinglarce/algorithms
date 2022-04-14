@@ -42,7 +42,7 @@ Pattern: Bottom -> Top -> Left -> Right
 {% endhint %}
 
 ```python
-def inorderTraversal(root: Optional[TreeNode]) -> List[int]:
+def inorder_traversal(root: Optional[TreeNode]) -> List[int]:
     result = []
     dfs(root, result)
     return result
