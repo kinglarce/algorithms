@@ -32,7 +32,7 @@ Idea is to grab the `current.next` and assign to a temporary variable, assign th
 {% endhint %}
 
 ```python
-def reverseList(head: Optional[ListNode]) -> Optional[ListNode]:
+def reverse_list(head: Optional[ListNode]) -> Optional[ListNode]:
     if not head:
         return head
     
@@ -69,7 +69,7 @@ h is `head`, p is `prev`\
 {% endhint %}
 
 ```python
-def reverseList(head: ListNode) -> ListNode:
+def reverse_list(head: ListNode) -> ListNode:
     if not head or not head.next:
         return head
     
