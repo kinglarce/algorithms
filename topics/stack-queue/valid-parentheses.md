@@ -42,7 +42,7 @@ The approach uses stack, push `char` if it's opening parentheses and pop if it's
 {% endhint %}
 
 ```python
-def isValid(self, s: str) -> bool:
+def is_valid(self, s: str) -> bool:
     mapping = {
         '(': ')',
         '{': '}',
