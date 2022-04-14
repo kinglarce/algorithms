@@ -30,7 +30,7 @@ Time: O(log(n)), Space: O(1)
 {% endhint %}
 
 ```python
-def searchInsert(nums: List[int], target: int) -> int:
+def search_insert(nums: List[int], target: int) -> int:
     left = 0 
     right = len(nums)-1
     
