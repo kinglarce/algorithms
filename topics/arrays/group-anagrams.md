@@ -22,7 +22,7 @@ Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 {% tabs %}
 {% tab title="HashSet Chars Count - O(n)" %}
 {% hint style="success" %}
-Time: O(nk), Space: O(n)
+Time: O(nk), Space: O(n) - n is length of list, k is max length of string.
 {% endhint %}
 
 {% hint style="info" %}
