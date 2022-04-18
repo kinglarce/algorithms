@@ -20,6 +20,7 @@
   * [First Unique Character](topics/arrays/first-unique-character.md)
   * [Valid Anagram](topics/arrays/valid-anagram.md)
   * [Ransom Note](topics/arrays/ransom-note.md)
+  * [Group Anagrams](topics/arrays/group-anagrams.md)
 * [Two/Three Pointers](topics/two-three-pointers/README.md)
   * [Valid Palindrome](topics/two-three-pointers/valid-palindrome.md)
   * [Two Sum](topics/arrays/two-sum.md)
