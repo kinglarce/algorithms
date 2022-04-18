@@ -22,6 +22,7 @@
   * [Ransom Note](topics/arrays/ransom-note.md)
   * [Group Anagrams](topics/arrays/group-anagrams.md)
   * [Top K Frequent Elements](topics/arrays/top-k-frequent-elements.md)
+  * [Encode and Decode Strings](topics/arrays/encode-and-decode-strings.md)
 * [Two/Three Pointers](topics/two-three-pointers/README.md)
   * [Valid Palindrome](topics/two-three-pointers/valid-palindrome.md)
   * [Two Sum](topics/arrays/two-sum.md)
