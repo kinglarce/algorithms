@@ -28,23 +28,30 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Make two passes, first is left to right and second is right to left to compute the product.
+**Hint:** Make two passes, first is left to right and second is right to left to compute the product. First pass is to calculate the prefix product for each index and another iteration is to calculate suffix product.&#x20;
+
+![](https://assets.leetcode.com/users/images/99b64bb7-85d3-454e-a800-0a76cd905ef5\_1637980713.7155366.png)
 {% endhint %}
 
 ```python
 def product_array_except_self(nums):
     result = [1] * (len(nums))
+    
     prefix = 1
     for i in range(len(nums)):
         result[i] = prefix
         prefix = prefix * nums[i]
-    postfix = 1
+        
+    suffix = 1
     for i in range(len(nums)-1, -1, -1):
-        result[i] = result[i] * postfix
-        postfix = postfix * nums[i]
+        result[i] = result[i] * suffix
+        suffix = suffix * nums[i]
 
     return result
 ```
 {% endtab %}
-{% endtabs %}
 
+{% tab title="Division - O(n)" %}
+
+{% endtab %}
+{% endtabs %}
