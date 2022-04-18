@@ -63,7 +63,7 @@ String[] strs = decoder.decode(msg);
 #### Solutions
 
 {% tabs %}
-{% tab title="Hashmap - O(n)" %}
+{% tab title="Two Pointer - O(n)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(n) -&#x20;
 {% endhint %}
@@ -73,7 +73,7 @@ Time: O(n), Space: O(n) -&#x20;
 
 e.g. 4#word -> 4 is length, "#" is delimeter, and finally "word".
 
-For decoding, we will use two-pointer that is `i` and `j` and we move them accordingly when `j` find the delimiter which is `#.`
+For decoding, we will use two-pointer that is `i` and `j` and we move them accordingly when `j` find the delimiter which is #. Logic is to find the delimiter, once found, get the length of word, slice the word in the string using `i` and `j+word_length` then append to list.
 {% endhint %}
 
 ```python
