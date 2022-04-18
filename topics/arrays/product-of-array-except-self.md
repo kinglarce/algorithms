@@ -34,7 +34,7 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 ```python
-def product_array_except_self(nums):
+def product_array_except_self(nums: List[int]) -> List[int]:
     result = [1] * (len(nums))
     
     prefix = 1
@@ -52,6 +52,31 @@ def product_array_except_self(nums):
 {% endtab %}
 
 {% tab title="Division - O(n)" %}
+{% hint style="success" %}
+Time: O(n), Space: O(1)
+{% endhint %}
 
+{% hint style="info" %}
+**Hint:** Idea is to get the product by multiplying each number in `nums` and then afterward is just divide them, but the edge case is that what if one of the numbers is 0. So, we need to keep track of 0, if it's only one, then when we reach the 0 `num` , then we can just use the `product` which is the product of the numbers before and after the `num` 0. But, if there are two 0, then it's nearly impossible for us to have a product and just make every number in the result 0.
+{% endhint %}
+
+```python
+def product_array_except_self(nums: List[int]) -> List[int]: 
+    product = 1
+    zero_count = 0
+
+    for num in nums:
+        if num != 0:
+            product = product * num
+        else:
+            zero_count += 1
+
+    if zero_count > 1:
+        return [0]*len(nums)
+    elif zero_count == 1:
+        return [product if num == 0 else 0 for num in nums]
+    else:
+        return [product//num for num in nums]
+```
 {% endtab %}
 {% endtabs %}
