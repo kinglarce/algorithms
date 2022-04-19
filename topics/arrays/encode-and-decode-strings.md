@@ -77,33 +77,32 @@ For decoding, we will use two-pointer that is `i` and `j` and we move them accor
 {% endhint %}
 
 ```python
- class Codec:
-    def encode(self, strs: [str]) -> str:
-        """Encodes a list of strings to a single string.
-        """
-        result = ""
-        for word in strs:
-            result += str(len(word)) + "#" + word
-            
-        return result
-
-    def decode(self, s: str) -> [str]:
-        """Decodes a single string to a list of strings.
-        """
-        result = []
-        i = 0
+def encode(strs: [str]) -> str:
+    """Encodes a list of strings to a single string.
+    """
+    result = ""
+    for word in strs:
+        result += str(len(word)) + "#" + word
         
-        while i < len(s):
-            j = i
-            while s[j] != '#':
-                j += 1
-            
-            word_len = int(s[i:j])
-            word = s[j+1: j+word_len+1]
-            result.append(word)
-            i = j+word_len+1
-            
-        return result
+    return result
+
+def decode(s: str) -> [str]:
+    """Decodes a single string to a list of strings.
+    """
+    result = []
+    i = 0
+    
+    while i < len(s):
+        j = i
+        while s[j] != '#':
+            j += 1
+        
+        word_len = int(s[i:j])
+        word = s[j+1: j+word_len+1]
+        result.append(word)
+        i = j+word_len+1
+        
+    return result
 ```
 {% endtab %}
 {% endtabs %}
