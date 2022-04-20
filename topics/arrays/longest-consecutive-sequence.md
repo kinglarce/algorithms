@@ -34,11 +34,10 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**  TODO
+**Hint:** &#x20;
 {% endhint %}
 
 ```python
- // TODO
 ```
 {% endtab %}
 {% endtabs %}
