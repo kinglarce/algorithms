@@ -63,7 +63,7 @@ Time: O(n log n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** &#x20;
+**Hint:**  Sorting already order the numbers by ascending order, all we need to do is check if the next number which is `nums[i+1]` is equal to nums\[i] + 1 then we know it's a sequence and increase the `sub_longest` , otherwise, if it's still greater, then we adjust the sequence and reset.
 {% endhint %}
 
 ```python
