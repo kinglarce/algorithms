@@ -57,7 +57,7 @@ e.g. `ord('b') - ord('a')` would equal to 1 since "b" unicode value is 98 and "a
 ```
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Iterative w/ Sorting  -  O(n * k log k)" %}
 {% hint style="success" %}
 Time: O(n \* k log k), Space: O(n)
 {% endhint %}
