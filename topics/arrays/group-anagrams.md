@@ -63,15 +63,15 @@ Time: O(n \* k log k), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Create a hashmap/dict placeholder, and for each string in the array of `strs` , sort the string which will represent the key and append it to the hashmap/dict if the key exists.
 {% endhint %}
 
 ```python
- def groupAnagrams(self, strs):
- ans = collections.defaultdict(list)
- for s in strs:
-     ans[tuple(sorted(s))].append(s)
- return ans.values()
+def group_anagrams(self, strs):
+   anagrams = collections.defaultdict(list)
+   for s in strs:
+      anagrams[tuple(sorted(s))].append(s)
+   return anagrams.values()
 ```
 {% endtab %}
 {% endtabs %}
