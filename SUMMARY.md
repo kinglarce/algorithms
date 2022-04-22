@@ -31,6 +31,7 @@
   * [Maximum Subarray](topics/arrays/maximum-subarray.md)
   * [Merge Sorted Array](topics/arrays/merge-sorted-array.md)
   * [Squares of Sorted Array](topics/arrays/squares-of-sorted-array.md)
+  * [Encode and Decode Strings](topics/arrays/encode-and-decode-strings.md)
 * [Linked List](topics/linked-list/README.md)
   * [Linked List Cycle](topics/linked-list/linked-list-cycle.md)
   * [Merge Two Sorted Lists](topics/linked-list/merge-two-sorted-lists.md)
