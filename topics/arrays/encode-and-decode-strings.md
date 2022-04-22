@@ -63,9 +63,9 @@ String[] strs = decoder.decode(msg);
 #### Solutions
 
 {% tabs %}
-{% tab title="Two Pointer - O(n)" %}
+{% tab title="Encode w/ Iterative, Decode w/ Two Pointer - O(n)" %}
 {% hint style="success" %}
-Time: O(n), Space: O(n) -&#x20;
+Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}

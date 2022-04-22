@@ -57,21 +57,21 @@ e.g. `ord('b') - ord('a')` would equal to 1 since "b" unicode value is 98 and "a
 ```
 {% endtab %}
 
-{% tab title="Iterative w/ Sorting  -  O(n * k log k)" %}
+{% tab title="Untitled" %}
 {% hint style="success" %}
 Time: O(n \* k log k), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Create a hashmap/dict placeholder, and for each string in the array of `strs` , sort the string which will represent the key and append it to the hashmap/dict if the key exists.
+**Hint:**&#x20;
 {% endhint %}
 
 ```python
-def group_anagrams(self, strs):
-   anagrams = collections.defaultdict(list)
-   for s in strs:
-      anagrams[tuple(sorted(s))].append(s)
-   return anagrams.values()
+ def groupAnagrams(self, strs):
+ ans = collections.defaultdict(list)
+ for s in strs:
+     ans[tuple(sorted(s))].append(s)
+ return ans.values()
 ```
 {% endtab %}
 {% endtabs %}
