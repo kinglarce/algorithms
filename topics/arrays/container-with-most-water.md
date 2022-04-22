@@ -54,4 +54,27 @@ def max_area(height: List[int]) -> int:
     return max_area
 ```
 {% endtab %}
+
+{% tab title="Iterative - O(n^2)" %}
+{% hint style="success" %}
+Time: O(n^2), Space: O(1)
+{% endhint %}
+
+{% hint style="info" %}
+**Hint:** &#x20;
+{% endhint %}
+
+```python
+def maxArea(height: List[int]) -> int:
+    max_area = 0 
+    
+    for i in range(len(height)):
+        for j in range(i, len(height)):
+            delta = j - i
+            area = delta * min(height[i], height[j])
+            max_area = max(max_area, area)
+            
+    return max_area
+```
+{% endtab %}
 {% endtabs %}
