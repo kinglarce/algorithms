@@ -61,7 +61,7 @@ Time: O(n^2), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** &#x20;
+**Hint:**  Same formula as the Two Pointer but just running through the array to compare using nested loop.
 {% endhint %}
 
 ```python
