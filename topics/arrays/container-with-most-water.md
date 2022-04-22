@@ -65,7 +65,7 @@ Time: O(n^2), Space: O(1)
 {% endhint %}
 
 ```python
-def maxArea(height: List[int]) -> int:
+def max_area(height: List[int]) -> int:
     max_area = 0 
     
     for i in range(len(height)):
