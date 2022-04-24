@@ -37,6 +37,7 @@
 * [Sliding Window](topics/sliding-window/README.md)
   * [Best Time to Buy and Sell Stock](topics/arrays/best-time-to-buy-and-sell-stock.md)
   * [Longest Substring Without Repeating Characters](topics/sliding-window/longest-substring-without-repeating-characters.md)
+  * [Longest Repeating Character Replacement](topics/sliding-window/longest-repeating-character-replacement.md)
 * [Linked List](topics/linked-list/README.md)
   * [Linked List Cycle](topics/linked-list/linked-list-cycle.md)
   * [Merge Two Sorted Lists](topics/linked-list/merge-two-sorted-lists.md)
