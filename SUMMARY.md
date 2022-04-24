@@ -62,5 +62,6 @@
   * [Binary Search](topics/binary-search/binary-search.md)
   * [First Bad Version](topics/binary-search/first-bad-version.md)
   * [Search Insert Position](topics/binary-search/search-insert-position.md)
+  * [Search in Rotated Sorted Array](topics/binary-search/search-in-rotated-sorted-array.md)
 * [Graphs](topics/graphs/README.md)
   * [Flood Fill](topics/graphs/flood-fill.md)
