@@ -42,7 +42,13 @@ Time: O(log(n)), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** There are 3 key points, you'll find the minimum if the previous number which is `nums[mid-1]` is greater than the current number `nums[mid]`, adjusting `left` pointer if `nums[mid]` is greater than the `nums[right]` and vice-versa, and finally, return the `nums[left]` because `left` and `right` pointer already overlapped and that could be the minimum number.
+**Hint:** There are 3 key points
+
+Find rotate index which is the smallest by check if the previous number which is `nums[mid-1]` is greater than the current number `nums[mid]`
+
+Adjusting `left` pointer if `nums[mid]` is greater than the `nums[right]` and vice-versa
+
+Finally, return the `nums[left]` because `left` and `right` pointer already overlapped and that could be the minimum number.
 {% endhint %}
 
 ```python

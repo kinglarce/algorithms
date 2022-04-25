@@ -33,7 +33,17 @@ Time: O(log(n)), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Instead of finding the rotated index like the "Find Minimum in Rotated Sorted Array", we just need to find which non-rotated subarray to look for and do a binary search.
+
+If `nums[mid]` equals `target` then all good, but there are 4 key points
+
+If `nums[left]` is less than or equal to `nums[mid`] then the left to mid subarray is non-rotated and we shall start looking there.
+
+If `target` value is in between of the `nums[left]` and `nums[mid]` which is the left half non-rotated subarray, then we adjust the `right` pointer, otherwise, we adjust the `left` pointer since we're at the wrong half and our `target` value is on the right half of it.
+
+If `nums[left]`, is greater than `nums[mid]` then the mid to right subarray is non-rotated and we shall start looking there.
+
+If `target` value is in between of the `nums[mid]` and `nums[right]` which is the right half non-rotated subarray, then we adjust the `left` pointer, otherwise, we adjust the `right` pointer since we're at the wrong half and our `target` value is on the left half of it.
 {% endhint %}
 
 ```python
