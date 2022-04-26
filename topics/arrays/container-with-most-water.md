@@ -33,7 +33,7 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Run `left` and `right` pointer which would compare who has the minimum height and the main formula is to get the area if it which is `delta * min(left height, right heigh)` . Delta is the difference between the `right - left`. And then, just adjust the pointers accordingly who has lesser value until they reach the middle.&#x20;
+**Hint:** Run `left` and `right` pointer which would compare who has the minimum height and the main formula is to get the area if it which is `delta * min(left height, right height)` . Delta is the difference between the `right - left`. And then, just adjust the pointers accordingly who has lesser value until they reach the middle.&#x20;
 {% endhint %}
 
 ```python
