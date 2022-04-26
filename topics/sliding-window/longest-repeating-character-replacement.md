@@ -32,11 +32,19 @@ The substring "BBBB" has the longest repeating letters, which is 4.
 {% tabs %}
 {% tab title="Sliding Window - O(n)" %}
 {% hint style="success" %}
-Time: O(n), Space: O(n)
+Time: O(n), Space: O(26) - Time is O(26\*n) because of getting the max frequency
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** &#x20;
+**Hint:**  Run `left` and `right` pointer where `right` run through the array and collect the character frequency and `left` adjust when possible replacment is over `k`.
+
+There are 3 key points
+
+Get the character frequency which will be used for getting the max later on.
+
+Subtract the delta which is `right - left + 1` with max character frequency `max(count.values())` if it's over `k`, if it's over `k` then adjust the `left` pointer and decrement the `left` pointer character. This behavior will minimize the window which minimizes the delta value as well for the longest possible replacement.
+
+Finally, the longest possible replacement for characters is the delta `right - left + 1` and just get the max between the `result`.
 {% endhint %}
 
 ```python
