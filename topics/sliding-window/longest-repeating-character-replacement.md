@@ -40,7 +40,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def characterReplacement(self, s: str, k: int) -> int:
+def character_replacement(s: str, k: int) -> int:
     count = {}
     left = 0
     result = 0
@@ -49,7 +49,7 @@ def characterReplacement(self, s: str, k: int) -> int:
         index = s[right]
         count[index] = 1 + count.get(index, 0)
         
-        while right - left + 1 - max(count.values()) > k:
+        while (right - left + 1) - max(count.values()) > k:
             count[s[left]] -= 1
             left += 1
         
