@@ -26,7 +26,13 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Idea is to set a `slow` which holds the auxiliary head and `fast` pointer which serves as stopping pointer once we traverse into the linked list.&#x20;
+
+Set the `fast` pointer head to the nth node from the end of the list because this will serve as a stoppage point later on.&#x20;
+
+We use a dummy auxiliary head for `slow` pointer as this will handle the cases for removing only one node, removing the head and guaranteeing the `slow` pointer doesn't reach out of bounds.
+
+Then finally, once traversal of the `fast` pointer is done, then just `slow.next` to `slow.next.next` which performs removal of the node and return the auxiliary head.
 {% endhint %}
 
 ```python
