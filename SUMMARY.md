@@ -46,6 +46,7 @@
   * [Remove Linked List Elements](topics/linked-list/remove-linked-list-elements.md)
   * [Reverse Linked List](topics/linked-list/reverse-linked-list.md)
   * [Remove Duplicates from Sorted List](topics/linked-list/remove-duplicates-from-sorted-list.md)
+  * [Remove Nth Node From End of List](topics/linked-list/remove-nth-node-from-end-of-list.md)
 * [Stack / Queue](topics/stack-queue/README.md)
   * [Valid Parentheses](topics/stack-queue/valid-parentheses.md)
   * [Implement Queue using Stacks](topics/stack-queue/implement-queue-using-stacks.md)
