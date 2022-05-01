@@ -30,7 +30,7 @@ Time: O(n^2), Space: O(n)
 {% endhint %}
 
 ```python
-def threeSum(nums: List[int]) -> List[List[int]]:
+def three_sum(nums: List[int]) -> List[List[int]]:
     nums.sort()
     result = []
     
