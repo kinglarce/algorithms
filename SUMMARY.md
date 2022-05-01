@@ -25,6 +25,7 @@
   * [Encode and Decode Strings](topics/arrays/encode-and-decode-strings.md)
   * [Longest Consecutive Sequence](topics/arrays/longest-consecutive-sequence.md)
   * [Container With Most Water](topics/arrays/container-with-most-water.md)
+  * [Three Sum](topics/arrays/three-sum.md)
 * [Two/Three Pointers](topics/two-three-pointers/README.md)
   * [Valid Palindrome](topics/two-three-pointers/valid-palindrome.md)
   * [Two Sum](topics/arrays/two-sum.md)
