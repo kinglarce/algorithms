@@ -42,7 +42,7 @@ There are 3 key points
 
 Get the character frequency which will be used for getting the max later on.
 
-Subtract the delta which is `right - left + 1` with max character frequency `max(count.values())` if it's over `k`, if it's over `k` then adjust the `left` pointer and decrement the `left` pointer character. This behavior will minimize the window which minimizes the delta value as well for the longest possible replacement.
+Subtract the delta which is `right - left + 1` with max character frequency `max(count.values())` if it's over `k`, then adjust the `left` pointer and decrement the `left` pointer character. This behavior will minimize the window which minimizes the delta value as well for the longest possible replacement.
 
 Finally, the longest possible replacement for characters is the delta `right - left + 1` and just get the max between the `result`.
 {% endhint %}
