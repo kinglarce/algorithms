@@ -30,7 +30,7 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 ```python
-def delete_duplicates(head: Optional[ListNode]) -> Optional[ListNode]:
+def delete_duplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
     current = head
     
     while current and current.next:
