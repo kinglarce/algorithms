@@ -26,7 +26,10 @@ Time: O(n^2), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Similar to Two-Pointer approach in two sum where we sort the `nums` array first and then check if it's equal the target which is `0` , if it's greater, decrement the `right` pointer, if it's lesser, increment the `left` pointer, otherwise, it's already `0` . \
+In this case, we use a third pointer which is `i` to basically use every number and then the `left` is `i+1` and `right` is `n-1` and sum up the three to see if it's equal to `0`
+
+Validation is check if `curr_val` value is equals to previous value `nums[i-1]` , then that means we've already process that and skip it to avoid duplication.&#x20;
 {% endhint %}
 
 ```python
