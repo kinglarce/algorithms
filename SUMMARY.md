@@ -35,6 +35,7 @@
   * [Squares of Sorted Array](topics/arrays/squares-of-sorted-array.md)
   * [Encode and Decode Strings](topics/arrays/encode-and-decode-strings.md)
   * [Container With Most Water](topics/arrays/container-with-most-water.md)
+  * [Three Sum](topics/arrays/three-sum.md)
 * [Sliding Window](topics/sliding-window/README.md)
   * [Best Time to Buy and Sell Stock](topics/arrays/best-time-to-buy-and-sell-stock.md)
   * [Longest Substring Without Repeating Characters](topics/sliding-window/longest-substring-without-repeating-characters.md)
