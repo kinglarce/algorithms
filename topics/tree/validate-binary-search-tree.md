@@ -38,7 +38,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def is_valid_BST(root: TreeNode) -> bool:
+def isValidBST(root: TreeNode) -> bool:
     low = float('-inf')
     
     def inorder(root):

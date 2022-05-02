@@ -37,7 +37,13 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** There are 3 key points for verifying the tree
+
+If both `p` and `q` value is the same and we reach to the end of each of their nodes, then True
+
+If only one of both only reach the node or their value doesn't match to reach other, then False
+
+Finally, if both `left` and `right` of both `p` and `q` is True, then its the same tree.
 {% endhint %}
 
 ```python
