@@ -33,7 +33,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def lowestCommonAncestor(root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+def lowest_common_ancestor(root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
     if not root or root.val == p.val or root.val == q.val:
         return root
     
