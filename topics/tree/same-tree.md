@@ -68,7 +68,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Same key points as the DFS, but this one just uses Queue. If ever `validate_tree` function return `False` then it's invalid. Other than that, just check if both `node_p` and `node_q` is not an empty leaf node, then put it in the queue and validate it.
 {% endhint %}
 
 ```python
