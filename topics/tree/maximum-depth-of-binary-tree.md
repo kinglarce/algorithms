@@ -32,6 +32,48 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
+def max_depth(root: Optional[TreeNode]) -> int:
+    if not root:
+        return 0
+
+    left = self.maxDepth(root.left)
+    right = self.maxDepth(root.right)
+    
+    return 1 + max(left, right)
+```
+{% endtab %}
+
+{% tab title="BFS - O(n)" %}
+{% hint style="success" %}
+Time: O(n), Space: O(n)
+{% endhint %}
+
+{% hint style="info" %}
+**Hint:**&#x20;
+{% endhint %}
+
+```python
+def max_depth(self, root: Optional[TreeNode]) -> int:
+    if not root:
+        return 0
+    
+    queue = [root]
+    count = 0
+    
+    while queue:
+        
+        for _ in range(len(queue)):
+            node = queue.pop(0)
+            
+            if node.left:
+                queue.append(node.left)
+            
+            if node.right:
+                queue.append(node.right)
+                
+        count += 1
+                
+    return count
 ```
 {% endtab %}
 {% endtabs %}
