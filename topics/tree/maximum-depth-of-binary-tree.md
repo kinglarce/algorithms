@@ -28,7 +28,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Perform DFS using Postorder traversal which follow the stack data structure then just check if you reach a `null` leaf node which will then return `0` . Once that's done, both `left` and `right` node should have either a `0` value or more than `0` value and get the `max` between them and plus `1` for the current node. ie `1 + max(left, right)`.
 {% endhint %}
 
 ```python
@@ -49,7 +49,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** Perform BFS which uses Queue data structure, and the whole point of Queue to go through node level by level. Instead of comparing between the `left` and `right` node, we just go through level by level and just `count+1` until we reach to last level.
 {% endhint %}
 
 ```python
