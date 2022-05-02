@@ -29,7 +29,9 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** This is a general LCA approach, if the current node itself is one of `p` or `q` , then one of them could possibly be an LCA when one returns `null` , but if at any point we found both `p` and `q` in the subtrees of `root`, then the LCA would be the parent that holds the subtrees of both `p` and `q`.
+**Hint:** There's 2 key points to LCA \
+If the current node itself is one of `p` or `q` , then one of them could possibly be an LCA when one returns `null` \
+But, if at any point we found both `p` and `q` in the subtrees of `root`, then the LCA would be the parent that holds the subtrees of both `p` and `q`.
 {% endhint %}
 
 ```python
