@@ -32,7 +32,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def searchBST(root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+def search_BST(root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
     if not root:
         return root
     
