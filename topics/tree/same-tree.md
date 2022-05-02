@@ -61,4 +61,38 @@ def is_same_tree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     return left and right
 ```
 {% endtab %}
+
+{% tab title="BFS - O(n)" %}
+{% hint style="success" %}
+Time: O(n), Space: O(n)
+{% endhint %}
+
+{% hint style="info" %}
+**Hint:**&#x20;
+{% endhint %}
+
+```python
+def is_same_tree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+    queue = [(p, q)]
+    while queue:
+        for _ in range(len(queue)):
+            node_p, node_q = queue.pop(0)
+            if not validate_tree(node_p, node_q):
+                return False
+            if node_p and node_q:
+                queue.append((node_p.left, node_q.left))
+                queue.append((node_p.right, node_q.right))
+                
+    return True
+        
+def validate_tree(p, q):
+    if p is None and q is None:
+        return True
+    if p is None or q is None:
+        return False
+    if p.val != q.val:
+        return False
+    return True
+```
+{% endtab %}
 {% endtabs %}
