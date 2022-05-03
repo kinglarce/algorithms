@@ -36,8 +36,8 @@ def max_depth(root: Optional[TreeNode]) -> int:
     if not root:
         return 0
 
-    left = self.maxDepth(root.left)
-    right = self.maxDepth(root.right)
+    left = max_depth(root.left)
+    right = max_depth(root.right)
     
     return 1 + max(left, right)
 ```
