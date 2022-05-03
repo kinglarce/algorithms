@@ -55,8 +55,8 @@ def is_same_tree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
     if p.val != q.val:
         return False
 
-    left = self.isSameTree(p.left, q.left)
-    right = self.isSameTree(p.right, q.right)
+    left = is_same_tree(p.left, q.left)
+    right = is_same_tree(p.right, q.right)
     
     return left and right
 ```
