@@ -33,8 +33,8 @@ Time: O(n), Space: O(n)
 def invert_tree(root: Optional[TreeNode]) -> Optional[TreeNode]:
     if not root:
         return
-    left = invert_tree(root.left)
-    right = invert_tree(root.right)
+    left = invertTree(root.left)
+    right = invertTree(root.right)
     root.left = right
     root.right = left
     
