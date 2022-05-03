@@ -37,11 +37,11 @@ def has_path_sum(root: Optional[TreeNode], targetSum: int) -> bool:
     if not root:
         return False
     
-    target_sum -= root.val
+    targetSum -= root.val
     if not root.left and not root.right:
-        return target_sum == 0
+        return targetSum == 0
     
-    return has_path_sum(root.left, target_sum) or has_path_sum(root.right, target_sum)
+    return hasPathSum(root.left, targetSum) or hasPathSum(root.right, targetSum)
 ```
 {% endtab %}
 {% endtabs %}
