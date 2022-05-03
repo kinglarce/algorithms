@@ -30,7 +30,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def find_target(root: Optional[TreeNode], k: int) -> bool:
+def findTarget(root: Optional[TreeNode], k: int) -> bool:
     seen = set()
     return dfs(root, k, seen)
 

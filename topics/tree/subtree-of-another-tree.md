@@ -43,8 +43,10 @@ def is_subtree(root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         return False
     if root.val == subRoot.val and is_same_tree(root, subRoot):
         return True
+        
     left = is_subtree(root.left, subRoot)
     right = is_subtree(root.right, subRoot)
+    
     return left or right
     
 def is_same_tree(p, q):
@@ -55,8 +57,8 @@ def is_same_tree(p, q):
     if p.val != q.val:
         return False
     
-    left = self.isSameTree(p.left, q.left)
-    right = self.isSameTree(p.right, q.right)
+    left = is_same_tree(p.left, q.left)
+    right = is_same_tree(p.right, q.right)
     
     return left and right
 ```
