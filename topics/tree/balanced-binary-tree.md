@@ -30,6 +30,10 @@ Input: root = [1,2,2,3,3,null,null,4,4]
 Output: false
 ```
 
+#### Different Types of Trees
+
+![](https://miro.medium.com/max/1400/1\*CMGFtehu01ZEBgzHG71sMg.png)
+
 #### Solutions
 
 {% tabs %}
@@ -40,12 +44,11 @@ Time: O(n), Space: O(n)
 
 {% hint style="info" %}
 **Hint:** Different Types of Binary Tree illustration \
-[https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254](https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254)\
-![](../../.gitbook/assets/chrome\_3llNLnp8J2.png)
+[https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254](https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254)
 {% endhint %}
 
 {% hint style="info" %}
-Hint 2:
+**Hint 2:**
 {% endhint %}
 
 ```python
