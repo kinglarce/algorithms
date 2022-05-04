@@ -60,7 +60,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def isPalindrome(s: str) -> bool:
+def is_palindrome(s: str) -> bool:
     filtered_chars = filter(lambda ch: ch.isalnum(), s)
     lowercase_filtered_chars = map(lambda ch: ch.lower(), filtered_chars)
     

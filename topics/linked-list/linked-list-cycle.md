@@ -35,7 +35,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def hasCycle(head: ListNode) -> bool:
+def has_cycle(head: ListNode) -> bool:
     seen = set()
     while head is not None:
         if head in seen :
