@@ -35,6 +35,20 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
+def diameter_of_binary_tree(root: Optional[TreeNode]) -> int:
+    _, diameter = max_depth(root, 0)
+    return diameter
+
+def max_depth(root, longest):
+    if root is None:
+        return 0, longest
+    # Same as Max Depth of Binary Tree
+    depth_left, longest = max_depth(root.left, longest)
+    depth_right, longest = max_depth(root.right, longest)
+    depth = max(depth_left, depth_right) + 1
+    
+    longest = max(longest, depth_left + depth_right)
+    return depth, longest
 ```
 {% endtab %}
 {% endtabs %}
