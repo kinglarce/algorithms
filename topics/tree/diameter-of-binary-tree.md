@@ -31,7 +31,12 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** The idea follow the Max Depth of Binary Tree but flip side is to find the longest from the left to the right. \
+There are 3 key points\
+We do a bottom up approach where we go to the leaf of left and right node and once we reach there, then we set a default value of 0.\
+Keep track of the longest path through the `longest` variable and do a Max Depth of each left and right node.
+
+And once you got the max depth, now get the max again by comparing the current `longest` with the sum of both currently recorded of left and right node which is `depth_left` and `depth_right` .&#x20;
 {% endhint %}
 
 ```python
