@@ -34,9 +34,9 @@ Time: O(n), Space: O(n)
 **Hint:** The idea follow the Max Depth of Binary Tree but flip side is to find the longest from the left to the right. \
 There are 3 key points\
 We do a bottom up approach where we go to the leaf of left and right node and once we reach there, then we set a default value of 0.\
-Keep track of the longest path through the `longest` variable and do a Max Depth of each left and right node.
+Keep track of the longest path through between the left and right node using `diameter_left` and `diameter_right` variable and do a Max Depth of each left and right node.
 
-And once you got the max depth, now get the max again by comparing the current `longest` with the sum of both currently recorded of left and right node which is `depth_left` and `depth_right` .&#x20;
+And once you got the max depth, now get the max diameter by comparing the current left and right diameters with the sum of both currently recorded depth of left and right node which is `depth_left` and `depth_right` .&#x20;
 {% endhint %}
 
 ```python
@@ -44,16 +44,16 @@ def diameter_of_binary_tree(root: Optional[TreeNode]) -> int:
     _, diameter = max_depth(root, 0)
     return diameter
 
-def max_depth(root, longest):
+def max_depth(self, root, diameter):
     if root is None:
-        return 0, longest
+        return 0, diameter
     # Same as Max Depth of Binary Tree
-    depth_left, longest = max_depth(root.left, longest)
-    depth_right, longest = max_depth(root.right, longest)
-    depth = max(depth_left, depth_right) + 1
-    
-    longest = max(longest, depth_left + depth_right)
-    return depth, longest
+    depth_left, diameter_left = max_depth(root.left, diameter)
+    depth_right, diameter_right = max_depth(root.right, diameter)
+    max_depth = max(depth_left, depth_right) + 1
+
+    diameter = max(diameter_left, diameter_right, depth_left + depth_right)
+    return max_depth, diameter
 ```
 {% endtab %}
 {% endtabs %}
