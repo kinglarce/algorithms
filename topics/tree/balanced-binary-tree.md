@@ -32,23 +32,51 @@ Output: false
 
 #### Different Types of Trees
 
-![](https://miro.medium.com/max/1400/1\*CMGFtehu01ZEBgzHG71sMg.png)
+![Different Types of Binary Tree illustration&#x20;
+https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254](https://miro.medium.com/max/1400/1\*CMGFtehu01ZEBgzHG71sMg.png)
 
 #### Solutions
 
 {% tabs %}
-{% tab title="DFS - O(n)" %}
+{% tab title="DFS (Bottom Up)- O(n log n)" %}
 {% hint style="success" %}
 Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:** Different Types of Binary Tree illustration \
-[https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254](https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254)
+**Hint:** TODO
+{% endhint %}
+
+```python
+def isBalanced(root: Optional[TreeNode]) -> bool:
+    is_balanced = True
+    
+    def max_depth(root):
+        nonlocal is_balanced
+        
+        if not root:
+            return 0
+
+        depth_left = max_depth(root.left)
+        depth_right = max_depth(root.right)
+
+        if abs(depth_left - depth_right) > 1:
+            is_balanced = False
+
+        return max(depth_left, depth_right) + 1
+    
+    max_depth(root)
+    return is_balanced
+```
+{% endtab %}
+
+{% tab title="DFS (Top Down)- O(n log n)" %}
+{% hint style="success" %}
+Time: O(n log n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint 2:**
+**Hint:** TODO
 {% endhint %}
 
 ```python
