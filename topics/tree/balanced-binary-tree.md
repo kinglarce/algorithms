@@ -48,7 +48,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def isBalanced(root: Optional[TreeNode]) -> bool:
+def is_balanced_tree(root: Optional[TreeNode]) -> bool:
     is_balanced = True
     
     def max_depth(root):
@@ -80,7 +80,7 @@ Time: O(n log n), Space: O(n)
 {% endhint %}
 
 ```python
-def is_balanced(root: Optional[TreeNode]) -> bool:
+def is_balanced_tree(root: Optional[TreeNode]) -> bool:
     if not root:
         return True
     
