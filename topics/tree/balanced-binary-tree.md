@@ -44,7 +44,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**  TODO
+**Hint:**  //TODO need to check later
 {% endhint %}
 
 ```python
@@ -76,7 +76,7 @@ Time: O(n log n), Space: O(n)
 {% endhint %}
 
 {% hint style="info" %}
-**Hint:**&#x20;
+**Hint:** // TODO
 {% endhint %}
 
 ```python
