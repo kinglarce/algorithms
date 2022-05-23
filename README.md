@@ -10,4 +10,4 @@ Blind 75 Excel Sheet - [https://docs.google.com/spreadsheets/d/1A2PaQKcdwO\_lwxz
 
 Grind 75 - [https://www.techinterviewhandbook.org/grind75](https://www.techinterviewhandbook.org/grind75)
 
-NeetCode - [https://neetcode.io/](https://neetcode.io/)&#x20;
+NeetCode - [https://neetcode.io/](https://neetcode.io)&#x20;
