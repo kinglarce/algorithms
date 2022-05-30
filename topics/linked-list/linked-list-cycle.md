@@ -40,7 +40,7 @@ def has_cycle(head: ListNode) -> bool:
     while head is not None:
         if head in seen :
             return True
-        seen .add(head)
+        seen.add(head)
         head = head.next
     return False
 ```
