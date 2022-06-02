@@ -52,7 +52,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def invert_tree(self, root):
+def invert_tree(root: Optional[TreeNode]) -> Optional[TreeNode]:
     queue = [root]
     while queue:
         node = queue.pop(0)
