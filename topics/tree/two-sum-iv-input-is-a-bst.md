@@ -55,7 +55,7 @@ Time: O(n), Space: O(n)
 {% endhint %}
 
 ```python
-def find_target(root: Optional[TreeNode], k):
+def findTarget(root, k):
     if not root: 
         return False
     
