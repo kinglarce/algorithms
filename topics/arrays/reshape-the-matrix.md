@@ -34,7 +34,7 @@ Validate if the `r` and `c` boundaries doesn't exceeds to the matrix `mat` row a
 {% endhint %}
 
 ```python
-def matrixReshape(mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+def matrix_reshape(mat: List[List[int]], r: int, c: int) -> List[List[int]]:
     # Validate if expected col and row match to boundaries of matrix
     if not mat or (r * c != len(mat) * len(mat[0])): 
         return mat
@@ -66,7 +66,7 @@ Validate if the `r` and `c` boundaries doesn't exceeds to the matrix `mat` row a
 {% endhint %}
 
 ```python
-def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+def matrix_reshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
     # Validate if expected col and row match to boundaries of matrix
     if not mat or (r * c != len(mat) * len(mat[0])): 
         return mat

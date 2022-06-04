@@ -47,7 +47,7 @@ If `right` is greater than `left` then use it for squaring, else using `left`.&#
 {% endhint %}
 
 ```python
-def sortedSquares(nums: List[int]) -> List[int]:
+def sorted_squares(nums: List[int]) -> List[int]:
     result = [0]*len(nums)
     left = 0
     right = len(nums)-1
