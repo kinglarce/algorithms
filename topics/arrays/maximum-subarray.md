@@ -35,7 +35,7 @@ Time: O(n), Space: O(1)
 {% endhint %}
 
 ```python
-def maxSubArray(nums: List[int]) -> int:
+def max_sub_array(nums: List[int]) -> int:
     curr_sum = nums[0]
     max_sum = nums[0]
     
@@ -57,7 +57,7 @@ Time: O(n^2), Space: O(1)
 {% endhint %}
 
 ```python
-def maxSubArray(nums: List[int]) -> int:
+def max_sub_array(nums: List[int]) -> int:
     max_subarray = float('-inf')
     for left in range(len(nums)):
         current_subarray = 0

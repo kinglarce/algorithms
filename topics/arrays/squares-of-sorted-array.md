@@ -30,7 +30,7 @@ Time: O(n log n), Space: O(n)
 {% endhint %}
 
 ```python
-def sortedSquares(self, A):
+def sorted_squares(self, A):
     return sorted(x*x for x in A)
 ```
 {% endtab %}
